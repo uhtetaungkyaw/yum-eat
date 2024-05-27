@@ -1,13 +1,19 @@
+
 import './App.css'
+import { Delivery } from './components/Delivery'
+import { Featured } from './components/Featured'
+import { TopNev } from './components/TopNev'
+import { TopPicks } from './components/TopPicks'
 
 function App() {
  
 
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>
-        Hello World!
-      </h1>
+        <TopNev></TopNev>
+        <Featured></Featured>
+        <Delivery />
+        <TopPicks />
     </>
   )
 }
